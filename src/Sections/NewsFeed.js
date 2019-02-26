@@ -1,7 +1,7 @@
 import React from 'react';
 import '../App.css';
 
-export default function bitcoinGraph() {
+export default function NewsFeed() {
     return (
         <div className="News-feed">
             <div className="News-feed-child">
