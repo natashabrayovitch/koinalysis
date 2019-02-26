@@ -11,6 +11,7 @@ import EthereumGraph from "./Sections/EthereumGraph";
 import XrpGraph from "./Sections/XrpGraph";
 import EosGraph from "./Sections/EosGraph";
 import LitecoinGraph from "./Sections/LitecoinGraph";
+import NewsFeed from "./Sections/NewsFeed";
 
 class App extends Component {
 
@@ -49,6 +50,7 @@ class App extends Component {
             <Route exact path='/xrpgraph' component={XrpGraph} />
             <Route exact path='/eosgraph' component={EosGraph} />
             <Route exact path='/litecoingraph' component={LitecoinGraph} />
+            <Route exact path='/newsfeed' component={NewsFeed} />
           </div>
         </HashRouter>
       </div>
