@@ -104,12 +104,12 @@ h3 {
 }
 
 
-.Live-News {
+.LiveNews {
   width: 100%; 
   height:62px; 
   background-color:white; 
   overflow:hidden; 
-  box-sizing: border-box; 
+  box-sizing: content-box; 
   border: 60px solid #282E3B; 
   border-radius: 60px; 
   text-align: right; 
@@ -124,6 +124,8 @@ h3 {
   padding: 100px; 
   margin: 0px; 
 }
+
+
 
 @keyframes App-logo-spin {
   from {
